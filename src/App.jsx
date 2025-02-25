@@ -24,7 +24,7 @@ function App() {
   return (
     <>
       <nav>
-        <Welcome />
+        <Welcome currentAccount={account} />
         <img src="logo.png" alt="Logo" className="logo" />
         <Login onLogin={handleLogin} />
       </nav>
